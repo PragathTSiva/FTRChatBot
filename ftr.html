@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+  <style>
+    /* Your CSS code goes here */
+    /* For example: */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    /* Rest of your CSS styles */
+
+    .horizontal-navbar a:hover {
+      background-color: #ddd; /* Light gray background on hover */
+    }
+
+    .gsi-material-button {
+      background-color: WHITE;
+      background-image: none;
+      border: 1px solid #747775;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #1f1f1f;
+      cursor: pointer;
+      font-family: 'Roboto', arial, sans-serif;
+      font-size: 14px;
+      height: 40px;
+      letter-spacing: 0.25px;
+      outline: none;
+      overflow: hidden;
+      padding: 0 12px;
+      position: relative;
+      text-align: center;
+      -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+      transition: background-color .218s, border-color .218s, box-shadow .218s;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: auto;
+      max-width: 400px;
+      min-width: min-content;
+    }
+
+    /* Rest of your CSS styles */
+
+    .gsi-material-button:not(:disabled):hover {
+      -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+      box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    }
+
+    .gsi-material-button:not(:disabled):hover .gsi-material-button-state {
+      background-color: #303030;
+      opacity: 8%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Your HTML content goes here -->
+
+<div class="modal-fullscreen-sm-down">
+  <!-- Content for modal fullscreen on small screens -->
+  <!-- ... -->
+</div>
+
+<!-- Newly added HTML content -->
+<div class="popover">
+  <div class="popover-header">Popover Header</div>
+  <div class="popover-body">Popover Body Content</div>
+</div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <!-- More carousel items here -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Your other HTML content here -->
+
+<div class="text-muted">Text with muted color</div>
+<div class="text-black-50">Text with black color at 50% opacity</div>
+<div class="text-white-50">Text with white color at 50% opacity</div>
+
+<div class="bg-primary">Background with primary color</div>
+<div class="bg-secondary">Background with secondary color</div>
+<div class="bg-success">Background with success color</div>
+
+<div class="visible">Visible element</div>
+<div class="invisible">Invisible element</div>
+
+<div class="pe-none">No pointer events</div>
+<div class="pe-auto">Auto pointer events</div>
+
+<div class="rounded">Rounded corners</div>
+<div class="rounded-0">No rounded corners</div>
+<div class="rounded-1">Slightly rounded corners</div>
+
+<div class="d-md-flex flex-md-column justify-content-md-center">Flexbox container</div>
+
+<div class="m-md-0">No margin</div>
+<div class="p-md-1">Padding of 0.25rem</div>
+<div class="mx-md-auto">Horizontal margin auto</div>
+
+<!-- Example content for horizontal navbar -->
+<div class="horizontal-navbar-container">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Example content for gsi material button -->
+<button class="gsi-material-button">
+  <span class="gsi-material-button-content-wrapper">
+    <span class="gsi-material-button-contents">Click Me</span>
+  </span>
+</button>
+
+</body>
+</html>
+
+
+
+
+
